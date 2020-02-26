@@ -29,8 +29,6 @@ const openMenu = function(evt) {
 
 btnMenu.addEventListener('click', openMenu)
 
-
-
 const up = document.querySelector('.up')
 window.addEventListener('scroll', function() {
   if ( pageYOffset > 1000 ) {
