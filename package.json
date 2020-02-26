@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
 
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> e92ebaa198a8e25e1580587b0ba8734bd43b82ce
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stee1y/weatherapp_landing_training.git"
   },
+<<<<<<< HEAD
   "author": "Eremeev Ivan",
+=======
+  "author": "",
+>>>>>>> e92ebaa198a8e25e1580587b0ba8734bd43b82ce
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stee1y/weatherapp_landing_training/issues"
@@ -21,10 +29,17 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-concat": "^2.6.1",
+<<<<<<< HEAD
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-rimraf": "^0.2.2",
     "gulp-sass": "^4.0.2",
     "gulp-uglify-es": "^2.0.0"
+=======
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rimraf": "^0.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+>>>>>>> e92ebaa198a8e25e1580587b0ba8734bd43b82ce
   }
 }

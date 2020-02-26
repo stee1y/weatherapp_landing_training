@@ -4,9 +4,13 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const imagemin = require('gulp-imagemin');
 const concat = require('gulp-concat');
+<<<<<<< HEAD
 // const uglify = require('gulp-uglify');
 const uglify = require('gulp-uglify-es').default;
 const htmlmin = require('gulp-htmlmin');
+=======
+const uglify = require('gulp-uglify');
+>>>>>>> e92ebaa198a8e25e1580587b0ba8734bd43b82ce
 const rimraf = require('rimraf');
 
 
@@ -20,7 +24,10 @@ gulp.task('serve', function() {
 
 gulp.task("html", function () {
     return gulp.src("src/html/index.html")
+<<<<<<< HEAD
         .pipe(htmlmin({collapseWhitespace: true}))
+=======
+>>>>>>> e92ebaa198a8e25e1580587b0ba8734bd43b82ce
         .pipe(gulp.dest("app/"))
 });
 
@@ -37,7 +44,11 @@ gulp.task('scss', function () {
 gulp.task('js', function() {
     return gulp.src("src/js/*.js")
         .pipe(concat('all.js'))
+<<<<<<< HEAD
         // .pipe(uglify())
+=======
+        .pipe(uglify('all.js'))
+>>>>>>> e92ebaa198a8e25e1580587b0ba8734bd43b82ce
         .pipe(gulp.dest('app/js'));
 });
 
